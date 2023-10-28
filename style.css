@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,200&family=Pacifico&family=Signika:wght@700&family=Varela+Round&family=Ysabeau:ital,wght@0,100;1,1&display=swap');
+
+/* navbar  */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    border-bottom: .4px solid rgb(53, 51, 51);
+    background-color: rgb(29, 30, 31);
+    width: 100%;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    box-shadow: 2px inset black;
+}
+
+#navbar a{
+    font-family:sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.main_logo{
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+}
+.romi{
+    color: rgb(206, 206, 206);
+    font-size: 25px;
+}
+
+.home{
+    margin-left: 300px;
+}
+
+.n_color{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: rgb(133, 133, 133);
+}
+
+.trade{
+    margin-left: 260px;
+}
+
+.green_btn{
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 7px 10px;
+    background-color: rgb(14, 209, 151);
+}
+
+.green_btn:hover{
+    background-color: rgb(3, 179, 111);
+}
+
+.wallet{
+    font-size: 15px;
+    letter-spacing: .4px;
+    color: white;
+    border: .1px solid rgb(80, 77, 77);
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+.wallet:hover{
+    background-color: rgb(35, 36, 36);
+}
+
+.menu{
+    color: azure;
+    padding: 6px 10px;
+    border: 1px solid rgb(139, 137, 137);
+    border-radius: 6px;
+}
+
+.nav_break{
+    color: rgb(32, 32, 32);
+}
+
+h1{
+    color: white;
+}
+
+p{
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+          /* Main section Part -1  */
+
+.main{
+    border-bottom:  .4px solid rgb(73, 72, 72) ;
+    width: 100%;
+    background-color: rgb(21, 21, 22)
+}
+.a{
+    height: 70vh;
+}
+
+.h{
+    color: rgb(243, 239, 239);
+    font-weight: 600;
+    padding-top: 64px;
+    font-size: 65px;
+}
+
+.primary{
+    font-family: 'Ysabeau', sans-serif;
+    margin-left: 350px;
+}
+
+.p{
+    font-weight: 400;
+    letter-spacing: .4px;
+    color: rgb(206, 205, 205);
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.launch{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.p_index{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    border: .5px solid rgb(36, 36, 36);
+    color: white;
+    width: 17vw;
+    height: 10vh;
+}
+
+.box h3{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.box p{
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.volume{
+    margin-left: 350px;
+}
+
+.interest{
+    margin-left: 50px;
+}
+
+.user{
+    margin-left: 50px;
+}
+
+                /* Main setion Part - 2   */
+
+.b{
+    height: 83vh;
+}
+
+.feature{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    margin-top: 70px;
+    width: 20vw;
+    height: 15vh;
+    margin-left: 40px;
+    border-radius: 9px;
+    border:none;
+}
+
+.container h3{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.container p{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-family:sans-serif;
+    font-size: 18px;
+}
+
+.reduce{
+    margin-left: 300px;
+}
+
+.token{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.token_container{
+    border-radius: 13px;
+    padding: 20px;
+    border: 1px solid rgb(75, 74, 74);
+    margin-left: 50px;
+}
+.token_heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.token_container a{
+    text-decoration: none;
+}
+
+.one{
+    margin-left: 350px;
+}
+
+.buy{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+/* footer section  */
+
+.footer{
+    align-items: center;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);
+}
+
+.footer_a{
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer_b{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+
+.romi_b{
+    margin-top: 10px;
+    color: rgb(206, 206, 206);
+    font-size: 25px;
+}
+.foot{
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
